@@ -1,0 +1,16 @@
+header{
+    border: 2px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.perfil{
+    margin-top: 16px;
+    box-sizing: border-box;
+    border: 10px;
+    padding: 70px;
+    background-color: beige;
+}
+

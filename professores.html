@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./profCSS.css">
+
+    <title>Professores</title>
+</head>
+<body>
+    <!-- utilizando um container fluido, com apenas esse elemento
+        ocupando a linha inteira e com direito das 12 colunas -->
+    <div class="row">
+        <div class="col-12 border">
+            <header class="container-fluid">Professores</header>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <!-- aqui temos dois elementos div disputando espaço na mesma row -->
+        <!-- se a tela for pequena, cada um requer 12 colunas, causando empilhando -->
+        <!-- se a tela for pelo menos md, cada uma requer apenas 6 colunas, ficando
+        portanto uma do lado da outra -->
+        <div class="row">
+            <div class="col-sm-12 col-md-6 mt-2 border">
+                <p class="perfil">aaaa aaaaaaaaaaaaa aaa aaaaaaaa aaaaaaaaaa aaa aaaaaa aaaaaaaaaaaaaaaaaaaa aa a aaaa</p>
+            </div>
+            <div class="col-sm-12 col-md-6 mt-2 border">
+                <p class="perfil">aaaa aaaaaaaaaaaaa aaa aaaaaaaa aaaaaaaaaa aaa aaaaaa aaaaaaaaaaaaaaaaaaaa aa a aaaa</p>
+            </div>
+        </div>
+    </div>  
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
