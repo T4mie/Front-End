@@ -3,7 +3,7 @@ header{
     text-decoration: underline;
     text-align: center;
     padding: 15px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .perfil{
@@ -11,6 +11,21 @@ header{
     box-sizing: border-box;
     border: 10px;
     padding: 70px;
-    background-color: beige;
+    background-color: white;
 }
 
+.professores{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+}
+.nomeprofessor{
+    text-align: center;
+    font-size: x-large;
+}
+.nomeprofissao{
+    text-align: center;
+    font-size: large;
+}
